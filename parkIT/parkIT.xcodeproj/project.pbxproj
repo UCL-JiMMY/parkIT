@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7387EDA71DC4E2620041157C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7387EDA61DC4E2620041157C /* AppDelegate.swift */; };
+		7387EDA91DC4E2620041157C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7387EDA81DC4E2620041157C /* ViewController.swift */; };
+		7387EDAC1DC4E2620041157C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7387EDAA1DC4E2620041157C /* Main.storyboard */; };
+		7387EDAE1DC4E2620041157C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7387EDAD1DC4E2620041157C /* Assets.xcassets */; };
+		7387EDB11DC4E2620041157C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7387EDAF1DC4E2620041157C /* LaunchScreen.storyboard */; };
+		7387EDBC1DC4E2620041157C /* parkITTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7387EDBB1DC4E2620041157C /* parkITTests.swift */; };
+		7387EDC71DC4E2A30041157C /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 7387EDC61DC4E2A30041157C /* Podfile */; };
+		84C04EA9EEC9F6E7D34763F6 /* libPods-parkIT.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 473A537BB42DD7426FA4D6FA /* libPods-parkIT.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7387EDB81DC4E2620041157C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7387ED9B1DC4E2620041157C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7387EDA21DC4E2620041157C;
+			remoteInfo = parkIT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		473A537BB42DD7426FA4D6FA /* libPods-parkIT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-parkIT.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7354256E1DC4E835006A9040 /* parkIT-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "parkIT-Bridging-Header.h"; sourceTree = "<group>"; };
+		7387EDA31DC4E2620041157C /* parkIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = parkIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7387EDA61DC4E2620041157C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7387EDA81DC4E2620041157C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7387EDAB1DC4E2620041157C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7387EDAD1DC4E2620041157C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7387EDB01DC4E2620041157C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7387EDB21DC4E2620041157C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7387EDB71DC4E2620041157C /* parkITTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = parkITTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7387EDBB1DC4E2620041157C /* parkITTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parkITTests.swift; sourceTree = "<group>"; };
+		7387EDBD1DC4E2620041157C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7387EDC61DC4E2A30041157C /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B081F016BBBCE97604D61CF9 /* Pods-parkIT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-parkIT.release.xcconfig"; path = "Pods/Target Support Files/Pods-parkIT/Pods-parkIT.release.xcconfig"; sourceTree = "<group>"; };
+		E1B0323A7F7141C781C342A9 /* Pods-parkIT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-parkIT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-parkIT/Pods-parkIT.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7387EDA01DC4E2620041157C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C04EA9EEC9F6E7D34763F6 /* libPods-parkIT.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7387EDB41DC4E2620041157C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2279EF26D6DDBF99CB9F3876 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				473A537BB42DD7426FA4D6FA /* libPods-parkIT.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36F07E8BC1518C4D5562DA86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1B0323A7F7141C781C342A9 /* Pods-parkIT.debug.xcconfig */,
+				B081F016BBBCE97604D61CF9 /* Pods-parkIT.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7387ED9A1DC4E2620041157C = {
+			isa = PBXGroup;
+			children = (
+				7387EDC61DC4E2A30041157C /* Podfile */,
+				7387EDA51DC4E2620041157C /* parkIT */,
+				7387EDBA1DC4E2620041157C /* parkITTests */,
+				7387EDA41DC4E2620041157C /* Products */,
+				36F07E8BC1518C4D5562DA86 /* Pods */,
+				2279EF26D6DDBF99CB9F3876 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7387EDA41DC4E2620041157C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7387EDA31DC4E2620041157C /* parkIT.app */,
+				7387EDB71DC4E2620041157C /* parkITTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7387EDA51DC4E2620041157C /* parkIT */ = {
+			isa = PBXGroup;
+			children = (
+				7387EDA61DC4E2620041157C /* AppDelegate.swift */,
+				7387EDA81DC4E2620041157C /* ViewController.swift */,
+				7387EDAA1DC4E2620041157C /* Main.storyboard */,
+				7387EDAD1DC4E2620041157C /* Assets.xcassets */,
+				7387EDAF1DC4E2620041157C /* LaunchScreen.storyboard */,
+				7387EDB21DC4E2620041157C /* Info.plist */,
+				7354256E1DC4E835006A9040 /* parkIT-Bridging-Header.h */,
+			);
+			path = parkIT;
+			sourceTree = "<group>";
+		};
+		7387EDBA1DC4E2620041157C /* parkITTests */ = {
+			isa = PBXGroup;
+			children = (
+				7387EDBB1DC4E2620041157C /* parkITTests.swift */,
+				7387EDBD1DC4E2620041157C /* Info.plist */,
+			);
+			path = parkITTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7387EDA21DC4E2620041157C /* parkIT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7387EDC01DC4E2620041157C /* Build configuration list for PBXNativeTarget "parkIT" */;
+			buildPhases = (
+				774950B29A5C3C4F198DA507 /* [CP] Check Pods Manifest.lock */,
+				7387ED9F1DC4E2620041157C /* Sources */,
+				7387EDA01DC4E2620041157C /* Frameworks */,
+				7387EDA11DC4E2620041157C /* Resources */,
+				BEA046A0CB6A7C8D1A0CE443 /* [CP] Embed Pods Frameworks */,
+				A86F1CD7E0D7215E715E36A7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = parkIT;
+			productName = parkIT;
+			productReference = 7387EDA31DC4E2620041157C /* parkIT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7387EDB61DC4E2620041157C /* parkITTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7387EDC31DC4E2620041157C /* Build configuration list for PBXNativeTarget "parkITTests" */;
+			buildPhases = (
+				7387EDB31DC4E2620041157C /* Sources */,
+				7387EDB41DC4E2620041157C /* Frameworks */,
+				7387EDB51DC4E2620041157C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7387EDB91DC4E2620041157C /* PBXTargetDependency */,
+			);
+			name = parkITTests;
+			productName = parkITTests;
+			productReference = 7387EDB71DC4E2620041157C /* parkITTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7387ED9B1DC4E2620041157C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Policane;
+				TargetAttributes = {
+					7387EDA21DC4E2620041157C = {
+						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+					7387EDB61DC4E2620041157C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = BZAGR68EGT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7387EDA21DC4E2620041157C;
+					};
+				};
+			};
+			buildConfigurationList = 7387ED9E1DC4E2620041157C /* Build configuration list for PBXProject "parkIT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7387ED9A1DC4E2620041157C;
+			productRefGroup = 7387EDA41DC4E2620041157C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7387EDA21DC4E2620041157C /* parkIT */,
+				7387EDB61DC4E2620041157C /* parkITTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7387EDA11DC4E2620041157C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7387EDB11DC4E2620041157C /* LaunchScreen.storyboard in Resources */,
+				7387EDAE1DC4E2620041157C /* Assets.xcassets in Resources */,
+				7387EDC71DC4E2A30041157C /* Podfile in Resources */,
+				7387EDAC1DC4E2620041157C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7387EDB51DC4E2620041157C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		774950B29A5C3C4F198DA507 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A86F1CD7E0D7215E715E36A7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-parkIT/Pods-parkIT-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEA046A0CB6A7C8D1A0CE443 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-parkIT/Pods-parkIT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7387ED9F1DC4E2620041157C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7387EDA91DC4E2620041157C /* ViewController.swift in Sources */,
+				7387EDA71DC4E2620041157C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7387EDB31DC4E2620041157C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7387EDBC1DC4E2620041157C /* parkITTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7387EDB91DC4E2620041157C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7387EDA21DC4E2620041157C /* parkIT */;
+			targetProxy = 7387EDB81DC4E2620041157C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7387EDAA1DC4E2620041157C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7387EDAB1DC4E2620041157C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7387EDAF1DC4E2620041157C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7387EDB01DC4E2620041157C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7387EDBE1DC4E2620041157C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7387EDBF1DC4E2620041157C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7387EDC11DC4E2620041157C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1B0323A7F7141C781C342A9 /* Pods-parkIT.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = parkIT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Policane.parkIT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "parkIT/parkIT-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7387EDC21DC4E2620041157C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B081F016BBBCE97604D61CF9 /* Pods-parkIT.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = parkIT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Policane.parkIT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "parkIT/parkIT-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7387EDC41DC4E2620041157C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BZAGR68EGT;
+				INFOPLIST_FILE = parkITTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Policane.parkITTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/parkIT.app/parkIT";
+			};
+			name = Debug;
+		};
+		7387EDC51DC4E2620041157C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BZAGR68EGT;
+				INFOPLIST_FILE = parkITTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Policane.parkITTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/parkIT.app/parkIT";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7387ED9E1DC4E2620041157C /* Build configuration list for PBXProject "parkIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7387EDBE1DC4E2620041157C /* Debug */,
+				7387EDBF1DC4E2620041157C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7387EDC01DC4E2620041157C /* Build configuration list for PBXNativeTarget "parkIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7387EDC11DC4E2620041157C /* Debug */,
+				7387EDC21DC4E2620041157C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7387EDC31DC4E2620041157C /* Build configuration list for PBXNativeTarget "parkITTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7387EDC41DC4E2620041157C /* Debug */,
+				7387EDC51DC4E2620041157C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7387ED9B1DC4E2620041157C /* Project object */;
+}
