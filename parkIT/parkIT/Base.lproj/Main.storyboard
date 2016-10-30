@@ -22,15 +22,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NVD-kj-kJn" customClass="GMSMapView">
-                                <rect key="frame" x="36" y="39" width="343" height="335"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="600" id="0V3-m8-xXd"/>
-                                </constraints>
-                            </view>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Longitude" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1x7-c9-9Rm">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Longitude" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1x7-c9-9Rm">
                                 <rect key="frame" x="92" y="422" width="230" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Lattitude" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="I2V-cI-7Ku">
+                                <rect key="frame" x="92" y="473" width="230" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -47,13 +46,10 @@
                                     <action selector="buttonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nZf-pI-kQe"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Lattitude" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="I2V-cI-7Ku">
-                                <rect key="frame" x="92" y="473" width="230" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NVD-kj-kJn" customClass="GMSMapView">
+                                <rect key="frame" x="36" y="43" width="343" height="335"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.2859707648" blue="0.26647497609999998" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -61,14 +57,18 @@
                             <constraint firstItem="NVD-kj-kJn" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="5im-ii-v4b"/>
                             <constraint firstItem="NVD-kj-kJn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="75r-RE-hAd"/>
                             <constraint firstItem="NVD-kj-kJn" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="8KE-dk-Z6B"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="NVD-kj-kJn" secondAttribute="bottom" id="A1e-7K-8Ci"/>
                             <constraint firstAttribute="trailing" secondItem="NVD-kj-kJn" secondAttribute="trailing" constant="16" id="CWI-2E-NfD"/>
                             <constraint firstItem="NVD-kj-kJn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="CeQ-1e-3jr"/>
+                            <constraint firstItem="NVD-kj-kJn" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="60" id="M5E-wA-lhC"/>
+                            <constraint firstItem="1x7-c9-9Rm" firstAttribute="top" secondItem="NVD-kj-kJn" secondAttribute="bottom" id="NZ6-M3-zRx"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="NVD-kj-kJn" secondAttribute="bottom" id="ZUV-Ol-XTr"/>
                             <constraint firstItem="NVD-kj-kJn" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Zey-Vx-tzY"/>
+                            <constraint firstItem="1x7-c9-9Rm" firstAttribute="top" secondItem="NVD-kj-kJn" secondAttribute="bottom" constant="410.5" id="bdq-g3-zBa"/>
                             <constraint firstItem="NVD-kj-kJn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="cV6-An-5hY"/>
                             <constraint firstAttribute="trailing" secondItem="NVD-kj-kJn" secondAttribute="trailing" id="in4-Vm-Mew"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="NVD-kj-kJn" secondAttribute="bottom" constant="250" id="ogk-9T-YB1"/>
+                            <constraint firstItem="1x7-c9-9Rm" firstAttribute="top" secondItem="NVD-kj-kJn" secondAttribute="bottom" id="nRe-5b-Ak3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="NVD-kj-kJn" secondAttribute="trailing" id="nbk-EP-YWa"/>
+                            <constraint firstItem="NVD-kj-kJn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="uX4-Ua-c6R"/>
                         </constraints>
                     </view>
                     <connections>

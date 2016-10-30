@@ -26,13 +26,19 @@ class ViewController: UIViewController, UITextFieldDelegate {
         let mapView = GMSMapView.map(withFrame: CGRect.zero, camera: camera)
         mapView.isMyLocationEnabled = true
         view = mapView
-        
+
+        view.insertSubview(mapView, at:0)
+
         // Creates a marker in the center of the map.
         let marker = GMSMarker()
         marker.position = CLLocationCoordinate2D(latitude: 51.519, longitude: -0.124)
         //marker.title = "Sydney"
         //marker.snippet = "Australia"
         marker.map = mapView
+        
+     
+
+     
     }
     
     override func viewDidLoad() {
@@ -40,7 +46,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
         // Do any additional setup after loading the view, typically from a nib.
         //locationText.delegate = self
         //latText.delegate = self
-
+        
+        
 
     }
 
@@ -56,6 +63,15 @@ class ViewController: UIViewController, UITextFieldDelegate {
         return true
     }*/
     
+    func next() {
+        let nextLocation = CLLocationCoordinate2DMake(37.792871, -122.397055)
+        mapView?.camera = GMSCameraPosition.camera(withLatitude: nextLocation.latitude, longitude: nextLocation.longitude, zoom: 15)
+        
+        let marker = GMSMarker(position: nextLocation)
+        marker.title = "Station"
+        marker.snippet = ""
+        marker.map = mapView
+    }
  
     
     //Actions
